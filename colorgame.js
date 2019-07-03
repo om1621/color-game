@@ -1,4 +1,4 @@
-var squares=document.querySelectorAll("#squares");
+var squares=document.querySelectorAll(".col");
 function newcolor(){
 	var a=[];
 	for(i=0;i<6;i=i+1)

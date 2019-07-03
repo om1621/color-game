@@ -1,4 +1,6 @@
-
+body{
+	font-family: 'arial';
+}
 h1{
 	color: white;
 	text-align: center;
@@ -7,21 +9,25 @@ h1{
 body{
 	background-color: #232323;
 }
-#squares{
-	width: 30%;
-	height: 25px;
+div.col{
+	width: 0px;
+	height: 225px;
 	background-color: orange;
+	border-radius: 15px;
 	float: left;
-	padding-bottom: 30%;
-	margin: 1.6%;
+}
+body:hover .col{
+	width: 350px;
+	transition-duration: 1s;
+	transform-style: linear;
 }
 
-}
-.dabba {
-	margin:0 auto;
-	max-width: 600px;
+div.col{
+	margin: 10px 0px 15px 45px;
+	padding: 0px;
 
 }
+
 .option{
 	background-color: white;
 	text-align:center;
