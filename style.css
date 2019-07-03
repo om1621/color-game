@@ -1,0 +1,28 @@
+
+h1{
+	color: white;
+	text-align: center;
+	background-color: #061c69;
+}
+body{
+	background-color: #232323;
+}
+#squares{
+	width: 30%;
+	height: 25px;
+	background-color: orange;
+	float: left;
+	padding-bottom: 30%;
+	margin: 1.6%;
+}
+
+}
+.dabba {
+	margin:0 auto;
+	max-width: 600px;
+
+}
+.option{
+	background-color: white;
+	text-align:center;
+	}
