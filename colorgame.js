@@ -36,7 +36,7 @@ for(i=0;i<6;i=i+1)
 	squares[i].addEventListener("click",function(){
 		if(this.style.backgroundColor===askedcolor.textContent)
 		{
-			h1.style.backgroundColor=askedcolor.textContent;
+			h1.style.backgroundColor = "#061c69s";
 			changecolor[2].textContent="You Got It!!";
 			changecolor[3].textContent="";	
 			for(var j=0;j<6;j=j+1)
