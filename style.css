@@ -9,17 +9,16 @@ h1{
 body{
 	background-color: #232323;
 }
-div.col{
+.col{
 	width: 0px;
 	height: 225px;
 	background-color: orange;
 	border-radius: 15px;
 	float: left;
 }
-body:hover .col{
+.col2{
 	width: 350px;
-	transition-duration: 1s;
-	transform-style: linear;
+	transition: all 1s ease;
 }
 
 div.col{
