@@ -5,20 +5,25 @@ h1{
 	color: white;
 	text-align: center;
 	background-color: #061c69;
+	position: relative;
+	transform: translate3d(0, -100%, 0);
 }
+
+.tr1
+{
+	transform: translate3d(0,0,0);
+	transition: all 0.6s ease;
+}
+
 body{
 	background-color: #232323;
 }
 .col{
-	width: 0px;
+	width: 80%;
 	height: 225px;
 	background-color: orange;
 	border-radius: 15px;
 	float: left;
-}
-.col2{
-	width: 80%;
-	transition: all 1s ease;
 }
 
 div.col{
@@ -33,6 +38,18 @@ div.col{
 
 }
 
+.row
+{
+	position: relative;
+	transform: translate3d(0, 100% , 0);
+}
+
+.row2
+{
+	transform: translate3d(0, 0, 0);
+	transition: all 0.8s ease;
+	transition-delay: 0.6s;
+}
 @media screen and (max-width:440px)
 {
 	.col-sm-6
